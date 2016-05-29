@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage[legalpaper, margin=0.8in, landscape]{geometry}%a4paper
+\frenchspacing
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{anyfontsize}
+\usepackage{wrapfig}				% wrapping text around figures
+\usepackage[T1]{fontenc}			% font encoding
+\usepackage{charter} 				% Charter font for main content
+\usepackage[hidelinks]{hyperref}
+\usepackage{lipsum}
+\frenchspacing
+\pagenumbering{gobble}
+\begin{document}
+\begin{center}
+    BUET ACM CHAPTER\\
+    \textit{presents}\\
+    \Huge
+    \textcolor{red}{Your Seminar Title}
+    %{\fontsize{20}{24}\selectfont\textcolor{red}{Stream Data Mining and Applications: A Big Data Perspective}}
+    %\par \normalsize \normalfont
+\end{center}
+\rule{\linewidth}{3pt} \\[-0.75\baselineskip]
+\rule{\linewidth}{1pt} \\
+%\vrule
+\begin{minipage}{0.49\textwidth}
+\vspace{1cm}
+\begin{center}
+    {\fontsize{15}{18}\selectfont Invited Speaker: \textbf{Your Speaker Title}}
+\end{center}
+\begin{center}
+%\begin{wrapfigure}[11]{l}{0.3\textwidth}
+    %\vspace{-0.3cm}
+	\includegraphics[width=0.3\textwidth]{test.png}
+	\\	% this spacer is needed to make the text on the right fit OK
+%\end{wrapfigure}
+\end{center}
+%\begin{center}
+\lipsum[1-1]
+%\end{center}
+\end{minipage}
+\begin{minipage}{0.02\textwidth}
+\hfill
+\end{minipage}
+\begin{minipage}{0.49\textwidth}
+%\vspace{0.5cm}
+\vspace{1cm}
+\begin{center}
+    {\fontsize{15}{18}\selectfont \textbf{Abstract}}
+\end{center}
+\lipsum[1-2]
+\end{minipage}
+\begin{center}
+    \textbf{When,} \textcolor{blue}{Tuesday, 31\textsuperscript{st} May, 2016 (11.30 AM)}\\
+    \textbf{Where,} \textcolor{blue}{Graduate Complex Seminar Room, 5th Floor, Dept. of CSE, BUET.}\\
+    \textbf{Organized By,} BUET ACM Chapter, Dept. of CSE, BUET.
+\end{center}
+\end{document}
